@@ -1,8 +1,6 @@
 # css-frameworks-ca
 <img width="1441" alt="rainydays-screenshot" src="https://github.com/A-Kopstad/css-frameworks-ca/assets/126067888/9994fe41-913e-4a7e-bf89-8c06ee5e052e">
 
-MemeQueen is a social media, directed at people who loves meme. 
-
 ## Description
 
 MemeQueen is a social media, with memes being the main topic. 
