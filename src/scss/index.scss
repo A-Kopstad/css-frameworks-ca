@@ -1,1 +1,73 @@
 
+$primary: #CD7BFF;
+$secondary: #ab46ea;
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+.front-form{
+    padding: 150px;
+}
+
+form input, .profile-img, .meme-post{
+    background-color: white;
+}
+
+.form-container{
+    background-color: #F6E7FF;
+}
+
+.log-in{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.log-in:hover{
+    background-color: rgb(214, 131, 255);
+}
+
+.login-form, .register-form{
+    display: none;
+}
+
+.login-form.show, .register-form.show{
+    display: flex;
+}
+
+.meme-collection{
+    width: 150px;
+    height: 130px;  
+    padding: 0px 20px 0px 20px
+}
+
+.meme-user{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.navbar{
+    background-color: #EDD1FF;
+    font-family: "Koulen", sans-serif;
+}
+
+.profile-img{
+    max-width: 200px;
+}
+
+.profile-img-sidebar{
+    max-width: 120px;
+}
+
+.register:hover{
+    color: black;
+}
+
+.search input{
+    width: 600px;
+}
+
+ul a{
+    color: initial;
+    text-decoration: none;
+}

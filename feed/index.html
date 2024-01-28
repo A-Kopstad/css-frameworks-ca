@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/dist/css/index.css" />
+    <script defer src="/javascript/profile.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light d-print">
+      <a href="#" class="navbar-brand ps-5">MemeQueen</a>
+    </nav>
+
+    <main>
+      <div class="wrapping-for-3-main row container-fluid mt-5">
+        <section
+          class="border-lg-end border-primary border-3 container col-lg-2 col-md-3 col-sm-5 d-flex flex-column align-items-center gap-3 mr-md-5 mb-sm-5"
+        >
+          <h2>Your groups</h2>
+          <ul
+            class="list-group gap-3 d-flex flex-sm-row flex-lg-column flex-md-column"
+          >
+            <li class="list-group-item list-group-item-action">
+              Twilight Sewerposting
+            </li>
+            <li class="list-group-item list-group-item-action">Workmemes</li>
+            <li class="list-group-item list-group-item-action">
+              All Things Gurly
+            </li>
+            <li class="list-group-item list-group-item-action">
+              I'm Stealing Your Meme
+            </li>
+          </ul>
+        </section>
+
+        <section class="col-lg-8 d-flex gap-5 flex-column align-items-center">
+          <div class="col-lg-6 col-md-6 col-sm-12 container">
+            <form
+              class="justify-content-center d-flex pt-5 search gap-3"
+              action=""
+            >
+              <input
+                type="text"
+                class="rounded p-2"
+                placeholder="Search for memes, groups, etc. ..."
+              />
+              <button class="rounded btn d-sm-none" onclick="performSearch()">
+                Search
+              </button>
+            </form>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <select class="container form-select" name="" id="">
+              <option value="1">Newest to Oldest</option>
+              <option value="2">Oldest to Newest</option>
+            </select>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <form
+              class="d-flex flex-column align-items-center gap-4 border border-primary border-3 p-2"
+              action=""
+            >
+              <h3>Create new post</h3>
+              <input type="file" src="" alt="" />
+              <input type="text" placeholder="description" />
+
+              <input type="submit" />
+            </form>
+          </div>
+
+          <div class="col-lg-4 col-md-5 col-sm-9">
+            <div
+              class="card container meme-post d-flex justify-content-center flex-column gap-2 pt-2"
+            >
+              <div class="d-flex flex-wrap gap-2 align-items-center">
+                <img
+                  class="img-fluid rounded-circle meme-user"
+                  src="/images/sal.png"
+                  alt=""
+                />
+                <p>Sally Spongebob</p>
+              </div>
+              <img class="img-fluid" src="/images/spongebob-meme.jpg" alt="" />
+              <p>YESSS</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-9">
+            <div
+              class="card container meme-post d-flex justify-content-center flex-column gap-2 pt-2"
+            >
+              <div class="d-flex flex-wrap gap-2 align-items-center">
+                <img
+                  class="img-fluid rounded-circle meme-user"
+                  src="/images/sal.png"
+                  alt=""
+                />
+                <p>Sally Spongebob</p>
+              </div>
+              <img class="img-fluid" src="/images/spongebob-meme.jpg" alt="" />
+              <p>YESSS</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-9">
+            <div
+              class="card container meme-post d-flex justify-content-center flex-column gap-2 pt-2"
+            >
+              <div class="d-flex flex-wrap gap-2 align-items-center">
+                <img
+                  class="img-fluid rounded-circle meme-user"
+                  src="/images/sal.png"
+                  alt=""
+                />
+                <p>Sally Spongebob</p>
+              </div>
+              <img class="img-fluid" src="/images/februarymeme.jpg" alt="" />
+              <p>ofc</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-9">
+            <div
+              class="card container meme-post d-flex justify-content-center flex-column gap-2 pt-2"
+            >
+              <div class="d-flex gap-2 align-items-center">
+                <img
+                  class="img-fluid rounded-circle meme-user"
+                  src="/images/sal.png"
+                  alt=""
+                />
+                <p>Sally Spongebob</p>
+              </div>
+              <img class="img-fluid" src="/images/spongebob-meme.jpg" alt="" />
+              <p>YESSS</p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="border-lg-start border-primary border-3 container col-lg-2"
+        >
+          <div
+            class="justify-content-sm-center justify-content-center d-flex flex-wrap align-items-center gap-3"
+          >
+            <h1>Amy the Elf</h1>
+            <a href="/profile/index.html"
+              ><img
+                class="rounded-circle img-fluid profile-img-sidebar mb-5 mt-5 mt-lg-0"
+                src="/images/sal.png"
+                alt="userimage"
+            /></a>
+          </div>
+          <ul class="list-group d-flex gap-3 flex-column container">
+            <li class="list-group-item list-group-item-action">
+              <a href="/profile/index.html"> Profile</a>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <a href="/feed/index.html"> Feed</a>
+            </li>
+            <li class="list-group-item list-group-item-action">Saved posts</li>
+            <li class="list-group-item list-group-item-action">Inbox</li>
+            <li class="list-group-item list-group-item-action">Settings</li>
+            <li class="list-group-item list-group-item-action">
+              <a href="/index.html"> Log out</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
